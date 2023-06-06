@@ -10,8 +10,60 @@
 </head>
 
 <body>
+    <main>
+        <section class="photo">
+            <div class="companyName"><img class="logo" src="./images/odinlogo-removebg-preview.png">ODIN</div>
 
-    <script src="javascript.js"></script>
+        </section>
+        <section class="content">
+            <div class="description">
+                <p>This is not a real online service! You know you need somethign like this in your life to help
+                    you realize your depest dreams.
+                </p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="" method="get" class="signUpForm">
+                <fieldset class="formSection">
+                    <div class="input">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </div>
+                    <div class="input">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </div>
+                </fieldset>
+                <fieldset class="formSection">
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber">
+                    </div>
+                </fieldset>
+                <fieldset class="formSection">
+                    <div class="input">
+                        <label for="password" id="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirmPassword" id="confirmPassword">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
+                    </div>
+                </fieldset>
+
+
+                <button class="createAccount">Create Account</button>
+            </form>
+
+            <p class="haveAccount">Already have an account? <a href="#">Log in</a></p>
+        </section>
+
+        <script src="javascript.js"></script>
+    </main>
 </body>
 
 </html>
